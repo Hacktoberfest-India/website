@@ -2,6 +2,7 @@
     display: flex;
     align-content: space-between;
     justify-content: space-between;
+    margin: 2rem 5rem;
 }
 
 .title {
@@ -15,6 +16,7 @@
 
 .navLeft {
     display: flex;
+    min-height: 40px;
 }
 
 .navRight {
@@ -38,6 +40,7 @@
 .navBtns {
     background: #9c4668 !important;
     margin: 0 1rem !important;
+    padding: 1.7rem 2rem !important;
     border-radius: 3rem !important;
     height: 3rem;
     color: #ffffff !important;
@@ -45,6 +48,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .nav {
+        margin: 0;
+    }
     .hamburger {
         display: flex !important;
     }
