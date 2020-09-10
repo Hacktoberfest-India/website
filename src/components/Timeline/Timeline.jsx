@@ -11,6 +11,7 @@ import {
 
 import { Typography, Paper } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import customClasses from "./timeline.module.css";
 
 const useStyles = makeStyles((theme) => ({
     paper: {
@@ -20,7 +21,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: theme.palette.secondary.main,
     },
     time: {
-        width: "50%",
+        width: "60%",
         alignSelf: "center",
     },
 }));
@@ -71,11 +72,10 @@ export default function Timeline() {
     });
 
     return (
-        <div>
-            <Typography variant="h4" component="h4">
+        <div className={customClasses.timeline}>
+            <Typography className={customClasses.title} variant="h2">
                 Schedule
             </Typography>
-
             <TM align="alternate">{timeline}</TM>
         </div>
     );

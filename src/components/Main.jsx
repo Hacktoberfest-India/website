@@ -4,7 +4,7 @@ import Banner from "./Banner";
 import About from "./About";
 import GetStarted from "./GetStarted/GetStarted";
 import Orgs from "./Organisations/Orgs";
-import Timeline from "./Timeline";
+import Timeline from "./Timeline/Timeline";
 import Sponsors from "./Sponsors/Sponsors";
 import FAQ from "./FAQ/FAQ";
 import Footer from "./Footer";

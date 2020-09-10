@@ -34,7 +34,7 @@ const Navbar = () => {
                         <MenuIcon />
                     </IconButton>
                     <Typography variant="h6" noWrap>
-                        H
+                        Logo
                     </Typography>
                     <div className={classes.navLeft}>
                         <Link href="#About" className={classes.navLinks}>
