@@ -7,7 +7,7 @@ import Orgs from "./Organisations/Orgs";
 import Timeline from "./Timeline/Timeline";
 import Sponsors from "./Sponsors/Sponsors";
 import FAQ from "./FAQ/FAQ";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import Team from "./Team/Team";
 import Speakers from "./Speakers/Speakers";
 
@@ -24,7 +24,7 @@ function Main() {
             <Sponsors />
             <Team />
             <FAQ />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }
