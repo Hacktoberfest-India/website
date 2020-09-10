@@ -7,7 +7,7 @@ import {
     Typography,
     Button,
     IconButton,
-    makeStyles,
+    makeStyles
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 
@@ -33,10 +33,13 @@ const Navbar = () => {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Typography variant="h6" noWrap>
+                    {/* <Typography variant="h6" noWrap>
                         Logo
-                    </Typography>
+                    </Typography> */}
                     <div className={classes.navLeft}>
+                        <Link href="/" className={classes.navLinks}>
+                            <img src="../../assets/Icon.svg" alt=""/>
+                        </Link>
                         <Link href="#About" className={classes.navLinks}>
                             <Typography variant="h6" noWrap>
                                 About
