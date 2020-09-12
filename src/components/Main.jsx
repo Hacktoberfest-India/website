@@ -10,6 +10,7 @@ import FAQ from "./FAQ/FAQ";
 import CTA from "./CTA";
 import Team from "./Team/Team";
 import Speakers from "./Speakers/Speakers";
+import Footer from "./Footer";
 
 function Main() {
     return (
@@ -25,7 +26,7 @@ function Main() {
             <Team />
             <FAQ />
             <CTA/>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 }
