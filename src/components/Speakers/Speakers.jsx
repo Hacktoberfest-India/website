@@ -5,7 +5,7 @@ import classes from "./speakers.module.css";
 
 function Speakers() {
     return (
-        <Box className={classes.speakers}>
+        <Box id="Speakers" className={classes.speakers}>
             <Typography className={classes.title} variant="h2">
                 Speakers
             </Typography>

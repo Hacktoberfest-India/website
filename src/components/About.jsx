@@ -24,7 +24,7 @@ export default function About() {
     const classes = useStyles();
   
     return (
-        <Container maxWidth="md">
+        <Container id="About" maxWidth="md">
         <div className={classes.root}>
             <Typography className={Classes.title} variant="h2">
                 About us
