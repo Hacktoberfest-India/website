@@ -25,7 +25,7 @@ const data = {
 
 const FAQ = () => {
     return (
-        <div>
+        <div id="FAQs">
         <Typography className={Classes.title} variant="h2">
                 FAQ
         </Typography> 

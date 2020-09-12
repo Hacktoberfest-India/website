@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 const Navbar = () => {
     const MUIclasses = useStyles();
     return (
-        <AppBar position="static" color="transparent" elevation={0}>
+        <AppBar position="sticky" color="#fff" elevation={0}>
             <Toolbar className={classes.nav}>
                 <div className={classes.navParentRight}>
                     <IconButton

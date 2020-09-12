@@ -15,7 +15,7 @@ function Team() {
     const classes = useStyles();
 
     return (
-        <div>
+        <div id="Team">
             <Typography className={Classes.title} variant="h2">
                 Our Team
             </Typography>

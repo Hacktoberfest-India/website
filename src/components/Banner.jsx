@@ -23,7 +23,7 @@ function Banner() {
     const classes = useStyles();
 
     return (
-        <div className={classes.Content}>
+        <div id="#" className={classes.Content}>
         <Container maxWidth="sm">
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
             Hacktoberfest India
