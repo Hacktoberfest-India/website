@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Grid, Paper } from '@material-ui/core';
+import { Container,Typography, Grid, Paper } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles'
 
 import Classes from "./Timeline/timeline.module.css";
@@ -24,6 +24,7 @@ export default function About() {
     const classes = useStyles();
   
     return (
+        <Container maxWidth="md">
         <div className={classes.root}>
             <Typography className={Classes.title} variant="h2">
                 About us
@@ -35,10 +36,10 @@ export default function About() {
                         </Paper>
                     </Grid>
                     <Grid item xs={3}>
-                        <img alt="random" src="https://source.unsplash.com/random" height="120px" width="100%"/>
+                        <img alt="random" src="https://source.unsplash.com/random" height="160px" width="100%"/>
                     </Grid>
                     <Grid item xs={3}>
-                        <img alt="random" src="https://source.unsplash.com/random" height="120px" width="100%"/>
+                        <img alt="random" src="https://source.unsplash.com/random" height="160px" width="100%"/>
                     </Grid>
                     <Grid item xs={9} >
                         <Paper className={classes.paper}>
@@ -51,9 +52,10 @@ export default function About() {
                         </Paper>
                     </Grid>
                     <Grid item xs={3}>
-                        <img alt="random" src="https://source.unsplash.com/random" height="120px" width="100%"/>
+                        <img alt="random" src="https://source.unsplash.com/random" height="160px" width="100%"/>
                     </Grid>
             </Grid>
         </div>
+        </Container>
     );
   }

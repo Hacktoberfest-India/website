@@ -35,9 +35,9 @@ function Banner() {
         </Typography>
         <div className={classes.Buttons}>
             <Grid container spacing={2} justify="center">
-                <Grid item>
+                {/* <Grid item>
                     <Button  variant="contained" className={classes.navBtns}>Join Discord</Button>
-                </Grid>
+                </Grid> */}
                 <Grid item>
                     <Button  variant="contained" className={classes.navBtns}>Apply Now</Button>
                 </Grid>
