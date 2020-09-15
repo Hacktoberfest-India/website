@@ -1,7 +1,8 @@
 import React from "react";
-import { Container, Typography,Grid } from '@material-ui/core'
+import { Container, Typography } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
-import ApplyNowButton from './ApplyNowButton';
+
+// import ApplyNowButton from './ApplyNowButton';
 
 const useStyles = makeStyles((theme) => ({
     Content: {
@@ -24,13 +25,13 @@ function Banner() {
             Make it short and sweet, but not too short so folks don&apos;t simply skip over it
             entirely.
         </Typography>
-        <div className={classes.Buttons}>
+        {/* <div className={classes.Buttons}>
             <Grid container spacing={2} justify="center">
                 <Grid item>
                     <ApplyNowButton/>
                 </Grid>
             </Grid>
-        </div>
+        </div> */}
         </Container>
         </div>
     )

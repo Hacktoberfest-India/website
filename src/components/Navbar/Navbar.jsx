@@ -12,6 +12,7 @@ import {
 import MenuIcon from "@material-ui/icons/Menu";
 import Icon from "../Icon"
 import classes from "./navbar.module.css";
+import ApplyNowButton from '../ApplyNowButton';
 
 const useStyles = makeStyles((theme) => ({
     menuButton: {
@@ -69,6 +70,7 @@ const Navbar = () => {
                 </div>
                 <div className={classes.navRight}>
                     <Button className={classes.navBtns}>Join Discord</Button>
+                    <ApplyNowButton/>
                 </div>
             </Toolbar>
         </AppBar>
