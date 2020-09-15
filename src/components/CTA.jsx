@@ -1,7 +1,7 @@
 import React from "react";
 import {Container, Grid, Button, Typography} from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
-
+import ApplyNowButton from './ApplyNowButton';
 import Classes from "./Timeline/timeline.module.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -36,7 +36,7 @@ function CTA() {
                         <Button  variant="contained" className={classes.navBtns}>Join Discord</Button>
                     </Grid>
                     <Grid item>
-                        <Button  variant="contained" className={classes.navBtns}>Apply Now</Button>
+                        <ApplyNowButton/>
                     </Grid>
                 </Grid>
             </Container>

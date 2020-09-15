@@ -69,7 +69,6 @@ const Navbar = () => {
                 </div>
                 <div className={classes.navRight}>
                     <Button className={classes.navBtns}>Join Discord</Button>
-                    <Button className={classes.navBtns}>Apply Now</Button>
                 </div>
             </Toolbar>
         </AppBar>
