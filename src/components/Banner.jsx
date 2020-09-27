@@ -16,7 +16,8 @@ function Banner() {
 
     return (
         <div id="#" className={classes.Content}>
-        <Container maxWidth="lg">
+        <Container maxWidthLg style={{display:"flex", flexWrap:"wrap"}} >
+            {/* <img style={{height:"500px", width:"auto"}} alt="HacktoberFest logo" src="https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg" /> */}
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
             Hacktoberfest India
         </Typography>
