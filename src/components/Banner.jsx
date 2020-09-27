@@ -7,7 +7,7 @@ import { makeStyles } from '@material-ui/core/styles'
 const useStyles = makeStyles((theme) => ({
     Content: {
         backgroundColor: theme.palette.background.paper,
-        padding: theme.spacing(8, 0, 6),
+        padding: theme.spacing(2),
     }
 }));
     
@@ -16,14 +16,12 @@ function Banner() {
 
     return (
         <div id="#" className={classes.Content}>
-        <Container maxWidth="sm">
+        <Container maxWidth="lg">
         <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
             Hacktoberfest India
         </Typography>
-        <Typography variant="h5" align="center" color="textSecondary" paragraph>
-            Something short and leading about the collection below—its contents, the creator, etc.
-            Make it short and sweet, but not too short so folks don&apos;t simply skip over it
-            entirely.
+        <Typography variant="h5" align="justify" color="textSecondary" paragraph>
+            Hacktoberfest is a month-long celebration of open source software organized by DigitalOcean. This is a perfect time to kick-start your journey into the world of open-source as well as improve your skills, and build greater technology in the process. Hacktoberfest encourages participation in the open-source community, whether you’re new to development, a student, long-time contributor, event host, or company of any size, you can help drive the growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge where you get a chance to earn a limited-edition t-shirt as well as you&apos;ll find many ways to learn, grow, and contribute to a global community of developers.
         </Typography>
         {/* <div className={classes.Buttons}>
             <Grid container spacing={2} justify="center">
