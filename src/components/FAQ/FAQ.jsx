@@ -6,20 +6,20 @@ import Classes from "../Timeline/timeline.module.css";
 const data = {
   rows: [
     {
-      title: "Lorem ipsum dolor sit amet,",
-      content: "Meatloaf doner pork loin sirloin, pork ground round brisket tenderloin. Biltong shank swine kielbasa, ribeye pork belly capicola chicken turducken chislic. Chislic shoulder fatback shankle prosciutto, salami landjaeger sausage jowl bresaola pig chuck frankfurter ribeye. Salami tri-tip ribeye jowl meatball brisket."
+      title: "What is open source?",
+      content: "Open source refers to source code that is publicly accessible and allows anyone to inspect, modify or learn from it. Open source projects encourage collaboration and the freedom to use the software for any purpose you wish."
     },
     {
-      title: "Nunc maximus, magna at ultricies elementum",
-      content: "Meatloaf doner pork loin sirloin, pork ground round brisket tenderloin. Biltong shank swine kielbasa, ribeye pork belly capicola chicken turducken chislic. Chislic shoulder fatback shankle prosciutto, salami landjaeger sausage jowl bresaola pig chuck frankfurter ribeye. Salami tri-tip ribeye jowl meatball brisket."
+      title: "What is a pull request?",
+      content: "Pull requests are proposed code changes you can submit to a branch in a repository on GitHub. Once submitted, a project maintainer will review and discuss the changes before they become final."
     },
     {
-      title: "Curabitur laoreet, mauris vel blandit fringilla",
-      content: "Meatloaf doner pork loin sirloin, pork ground round brisket tenderloin. Biltong shank swine kielbasa, ribeye pork belly capicola chicken turducken chislic. Chislic shoulder fatback shankle prosciutto, salami landjaeger sausage jowl bresaola pig chuck frankfurter ribeye. Salami tri-tip ribeye jowl meatball brisket."
+      title: "How do I get started?",
+      content: "Please view our Steps To Join section for the instructions to participate in this initiative"
     },
     {
-      title: "What is the package version",
-      content: "v1.0.5"
+      title: "Do I get a prize for participating?",
+      content: "Aside from the knowledge, you’ll gain and the fun you’ll have, you’ll also receive a limited-edition Hacktoberfest T-shirt for submitting 4 valid pull requests as well as any prizes offered by the organization you work under."
     }]
 }
 
