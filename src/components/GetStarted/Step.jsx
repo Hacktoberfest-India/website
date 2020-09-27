@@ -6,11 +6,11 @@ const Step = ({ number, text }) => (
     <div className={classes.step}>
         <div className={classes.number}>{number}</div>
         <div className={classes.text}>
-            <span style={{ color: "#FF8AE2", fontWeight: 900 }}>
+            <div style={{ color: "#FF8AE2", fontWeight: 900 }}>
                 Step {number}
-            </span>
+            </div>
             &nbsp;
-            <span>{text}</span>
+            <div>{text}</div>
         </div>
     </div>
 );
