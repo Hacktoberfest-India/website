@@ -2,9 +2,7 @@
     display: flex;
     align-content: space-between;
     justify-content: space-between;
-    /* margin: 2rem 2rem; */
-    position: fixed;
-    background-color: lightpink;
+    margin: 2rem 2rem;
 }
 
 .title {

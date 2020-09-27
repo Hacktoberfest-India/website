@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
 const Navbar = () => {
     const MUIclasses = useStyles();
     return (
-        <AppBar position="sticky" color="#fff" elevation={0}>
+        <AppBar position="static" color="transparent" elevation={0}>
             <Toolbar className={classes.nav}>
                 <div className={classes.navParentRight}>
                     <IconButton
@@ -35,7 +35,7 @@ const Navbar = () => {
                         <MenuIcon />
                     </IconButton>
                     <div className={classes.navLeft}>
-                        <Link href="#" className={classes.navLinks}>
+                        <Link href="#">
                             <Icon/>
                         </Link>
                         <Link href="#About" className={classes.navLinks}>
@@ -69,8 +69,19 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className={classes.navRight}>
-                    <Button className={classes.navBtns}>Join Discord</Button>
-                    <ApplyNowButton/>
+                    <Button
+                    variant="contained"
+                 style={{
+                    background: "#9c4668",
+                    margin: "0 1rem",
+                    padding: "1.7rem 2rem",
+                    borderRadius: "3rem",
+                    height: "3rem",
+                    color: "#ffffff",
+                    fontWeight: "900",
+                    cursor: 'pointer'
+                }}>Join Discord</Button>
+                    <ApplyNowButton />
                 </div>
             </Toolbar>
         </AppBar>
